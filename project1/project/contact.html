@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS/project.css" />
+    <link rel="icon" href="img/favicon.ico" type="image/gif" sizes="16x16" />
+  </head>
+  <body>
+    <ul class="navbar">
+      <li class="nav-item"><a href="index.html">Home</a></li>
+      <li class="nav-item"><a href="hobby.html">About me</a></li>
+      <li class="nav-item"><a href="cv.html">CV</a></li>
+      <li class="nav-item"><a href="ervaring.html">Ervaring</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+      <li class="navbar-right">Contact - Milan Vandenbergh</li>
+    </ul>
+
+    <div class="container">
+      <h1 id="contact">Contacteer ons</h1>
+      <p class="contact">
+        Vul het onderstaande formulier in om contact met mij op te nemen.
+      </p>
+
+      <form action="#" method="post">
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" id="voornaam" name="voornaam" required /><br />
+
+        <label for="naam">Naam:</label>
+        <input type="text" id="naam" name="naam" required /><br />
+
+        <label for="email">E-mailadres:</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required /><br />
+
+        <label for="onderwerp">Onderwerp:</label>
+        <input type="text" id="onderwerp" name="onderwerp" required /><br />
+
+        <label for="bericht">Bericht:</label>
+        <textarea id="bericht" name="bericht" rows="5" required></textarea
+        ><br />
+
+        <input type="submit" value="Verzenden" />
+      </form>
+    </div>
+  </body>
+</html>
